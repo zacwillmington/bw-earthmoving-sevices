@@ -7,6 +7,12 @@ main {
     min-height: 1000/20em;
 }
 
+
+.business-casual {
+    height: 100%;
+
+}
+
 /* Mobile */
 @media only screen and (min-width: 0em) {
 
@@ -17,6 +23,7 @@ main {
         position: relative;
         z-index: 1;
         background: url("/images/landing-mobile.jpg");
+        opacity: 1;
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
@@ -28,7 +35,7 @@ main {
             height: 100%;
             width: 100%;
             background: #ECEFFE;
-            opacity: .9;
+            opacity: .4;
             top: 0;
             left: 0;
             z-index: -10;
@@ -40,6 +47,12 @@ main {
             margin: auto;
             position: relative;
             z-index: 10;
+        }
+
+        .services {
+            display: flex;
+            font-size: 25px;
+            justify-content: space-between;
         }
 
         .hero-content {
@@ -135,7 +148,6 @@ main {
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
-
         .hero-content {
             display: flex;
             justify-content: space-between;
@@ -144,10 +156,11 @@ main {
 
         .business-casual {
             display: block;
-            width: 350/20em;
+            width: 100%;
             position: absolute;
             right: 0;
             top: -70/20em;
+            z-index: -1000;
         }
     }
 }
@@ -161,7 +174,7 @@ main {
         background-attachment: fixed;
 
         .business-casual {
-            right: 50/20em;
+            // right: 50/20em;
         }
     }
 }

@@ -31,6 +31,9 @@
   body.dark-mode #hero h1 {
     color: #fff;
   }
+  body.dark-mode #hero li {
+    color: #fff;
+  }
   body.dark-mode #hero .call-now .light {
     display: none;
   }

@@ -4,6 +4,9 @@
 main {
   min-height: 50em;
 }
+.business-casual {
+  height: 100%;
+}
 /* Mobile */
 @media only screen and (min-width: 0em) {
   #hero {
@@ -13,6 +16,7 @@ main {
     position: relative;
     z-index: 1;
     background: url("/images/landing-mobile.jpg");
+    opacity: 1;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -24,7 +28,7 @@ main {
     height: 100%;
     width: 100%;
     background: #ECEFFE;
-    opacity: .9;
+    opacity: .4;
     top: 0;
     left: 0;
     z-index: -10;
@@ -35,6 +39,11 @@ main {
     margin: auto;
     position: relative;
     z-index: 10;
+  }
+  #hero .services {
+    display: flex;
+    font-size: 25px;
+    justify-content: space-between;
   }
   #hero .hero-content {
     padding: 0;
@@ -121,10 +130,11 @@ main {
   }
   #hero .business-casual {
     display: block;
-    width: 17.5em;
+    width: 100%;
     position: absolute;
     right: 0;
     top: -3.5em;
+    z-index: -1000;
   }
 }
 /* Small Desktop */
@@ -133,9 +143,6 @@ main {
     padding-top: 15em;
     padding-bottom: 14em;
     background-attachment: fixed;
-  }
-  #hero .business-casual {
-    right: 2.5em;
   }
 }
 /* Large Desktop */
@@ -272,4 +279,18 @@ main {
     box-shadow: none;
   }
 }
+/* Large Desktop */
+/*-- -------------------------- -->
+<---           section          -->
+<--- -------------------------- -*/
+/* Mobile */
+/* Tablet */
+/* Small Desktop */
+/* Large Desktop */
+/*-- -------------------------- -->
+<---           section          -->
+<--- -------------------------- -*/
+/* Mobile */
+/* Tablet */
+/* Small Desktop */
 /* Large Desktop */
