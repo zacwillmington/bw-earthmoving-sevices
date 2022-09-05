@@ -531,10 +531,12 @@
     position: absolute;
     left: 0px;
     height: 6em;
-    width: 9em;
+    width: 17.5em;
     top: 50%;
     transform: translateY(-50%);
-    padding: 0;
+    padding-top: 4%;
+    padding-left: 0px;
+    font-size: 20px;
   }
   .navbar-menu .nav-logo:before {
     display: none;
