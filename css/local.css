@@ -266,7 +266,6 @@ main {
   #services .service:nth-of-type(2) {
     order: initial;
     width: 20em;
-    height: 17.25em;
     border: none;
   }
   #services .service:last-of-type {
